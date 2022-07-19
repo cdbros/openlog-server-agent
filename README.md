@@ -1,6 +1,6 @@
 # Openlog server agent
 
-Golang program used to loop through a log folder and send csv files to openlog server
+Golang program used to loop through a log folder and send csv files to openlog server. The project use goroutines to send files parallelly
 
 ## How to use it
 - Build the executable with ```GOOS=target-OS GOARCH=target-architecture go build ```
